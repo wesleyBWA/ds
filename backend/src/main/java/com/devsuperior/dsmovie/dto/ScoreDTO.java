@@ -3,7 +3,7 @@ package com.devsuperior.dsmovie.dto;
 public class ScoreDTO {
 	
 	private Long movieId;
-	private String emailString;
+	private String email;
 	private Double score;
 	
 	public ScoreDTO() {
@@ -17,12 +17,12 @@ public class ScoreDTO {
 		this.movieId = movieId;
 	}
 
-	public String getEmailString() {
-		return emailString;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setEmailString(String emailString) {
-		this.emailString = emailString;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public Double getScore() {
@@ -32,6 +32,8 @@ public class ScoreDTO {
 	public void setScore(Double score) {
 		this.score = score;
 	}
+
+	
 	
 	
 
